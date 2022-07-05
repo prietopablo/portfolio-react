@@ -8,5 +8,40 @@
 .main-section {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.main-section > h3 {
+   text-align: start;
+   width: 33vw;
+}
+
+.main-section .content {
+   display: flex;
+   justify-content: flex-start;
+   width: 66vw;
+}
+
+.content .date {
+   text-align: start;
+   margin-right: 50px;
+}
+
+.content .details {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   text-align: start;
+}
+
+.content .details-title {
+   display: flex;
+}
+
+.details-title > h4 {
+   margin-right: 5px;
+}
+
+.details-points {
+   list-style-type: circle;
 }
