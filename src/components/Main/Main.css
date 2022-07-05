@@ -1,5 +1,12 @@
 .main {
-   width: 75vw;
-   height: 20vh;
-   border: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 5px;
+}
+
+.main-section {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
