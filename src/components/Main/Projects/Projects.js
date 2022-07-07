@@ -3,7 +3,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div className="main-section projects">
-      <h3>projects</h3>
+      <h3 className="title">projects</h3>
       <div className="content">
          <ul className="date">
           <li>début</li>

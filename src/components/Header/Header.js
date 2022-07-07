@@ -3,18 +3,20 @@ import './Header.css';
 function Header() {
    return (
       <nav className="nav">
-
-         <div className="title">
+         <div className="nav-title">
             <h1>Pablo Prieto</h1>
-            <h2>JavaScript Fullstack Developer</h2>
          </div>
-         <ul className="contact">
-            <li><span>phone :</span> +33619395038</li>
-            <li><span>mail :</span> prietopablo88@gmail.com</li>
-            <li><span>location :</span> Asnières-sur-Seine, 92600, France</li>
+         <ul className="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Timeline</a></li>
          </ul>
-         <div className="portrait"></div>
-
+         <ul className="nav-links icons">
+            <li><a href="#">Github</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">mail</a></li>
+         </ul>
       </nav>
    )
 }
