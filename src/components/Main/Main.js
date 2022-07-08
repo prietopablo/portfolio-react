@@ -14,8 +14,6 @@ function Main() {
          <About />          
          <Skills />
          <Projects />
-         {/*<Education />
-         <Experiences /> */}
       </div>
    )
 }
