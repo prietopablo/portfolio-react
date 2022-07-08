@@ -1,0 +1,20 @@
+.projects  li {
+   font-size: 0.65em;
+   margin: 0 6px 9px 0;      
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   text-decoration-color: rgba(0, 159, 227, 0.507);
+   text-decoration-skip-ink: none; ;
+   text-underline-offset: 0px;
+   /*text-underline-: ;*/
+}
+
+.content ul{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.project-text {
+   font-size: 0.8em;
+}
