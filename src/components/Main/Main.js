@@ -1,6 +1,4 @@
 import Projects from './Projects/Projects';
-import Experiences from './Experiences/Experiences';
-import Education from './Education/Education';
 import Skills from './Skills/Skills';
 import Presentation from './Presentation/Presentation';
 import About from './About/About';
