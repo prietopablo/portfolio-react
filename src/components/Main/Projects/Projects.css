@@ -9,6 +9,10 @@
    /*text-underline-: ;*/
 }
 
+.projects > .title {
+   margin-top: 9px;
+}
+
 .content ul{
    display: flex;
    flex-direction: column;
