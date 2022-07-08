@@ -1,5 +1,8 @@
 import './Projects.css';
 
+import { FaNodeJs, FaReact, FaLongArrowAltRight, FaGithub } from "react-icons/fa"
+import { SiPostgresql, SiRedux } from "react-icons/si"
+
 function Projects() {
   return (
     <div className="main-section projects">
@@ -7,28 +10,35 @@ function Projects() {
       <div className="content">
          
         <h2 className="project-title">microscope web</h2>
-        <h3 className="project-role">Role :  Product owner / Back-end lead developer</h3>
-
-        <ul className="project-technologies">
-          <li>Node.js (express)</li>
-          <li>PostgresQL</li>
-          <li>React</li>
-          <li>Axios</li>
-          <li>Redux</li>
-        </ul>
-        
-
+        <p className="project-role">Role :  Product owner / Back-end lead developer</p>   
+        <p className="project-github"><a className="project-github" href="https://github.com/PrietoPablo/microscope-web"><FaGithub /> Github</a></p>
         <p className="project-text">In a team of 4 students from my accelerated training at O’Clock, I developed a web adaptation of Microscope. It’s a game/book meant to create amazing stories in a collaborative way. That’s my first serious project !</p>
-
+        <div className="stack">
+          <h5 className="stack-title">Stack  </h5>
+          <ul className="stack-technologies">
+            <li>
+              <FaNodeJs /> <span>Node.js (express)</span>
+            </li>
+            <li>
+              <SiPostgresql /> <span>PostgresQL</span>
+            </li>
+            <li>
+              <FaReact /> <span>React</span>
+            </li>
+            <li>
+              <SiRedux /> <span>Redux</span>
+            </li>
+          </ul>
+        </div>
         <h4>Purpose</h4>
 
-        <p className="project-text">This project has multiple objectives. I wanted to present an app idea that will fully exploit the stack we learned during our training (We worked a lot on the SQL Database). I wished to work on challenging problems with no premade solutions (I do love problem solving). I wanted to use Socket.io (set aside for our v1).</p>
+        <p className="project-text">This project has multiple objectives. I wanted to present an app idea that will fully exploit the stack we learned during our training (We worked a lot on the SQL Database). I wished to work on challenging problems with no premade solutions (I do love problem solving).</p>
 
         <h4>Timeline</h4>
 
         <h5>Sprint 0, Design phase, 6 days</h5>
 
-        <ul className="design">
+        <ul className="project-list">
           <li>wireframes</li>
           <li>user stories</li>
           <li>ER model</li>
@@ -40,8 +50,8 @@ function Projects() {
 
         <h5>Sprint 1, Data, integration & connexion, 7 days</h5>
 
-        <ul className="development">
-          <li>Initial setup of the PosgresQL database (working with sqitch)</li>
+        <ul className="project-list">
+          <li>Initial setup of the PosgresQL database (sqitch)</li>
           <li>Express server with basic routes, controllers and datamapper</li>
           <li>Use of JWT</li>
           <li>app structure</li>
@@ -56,9 +66,9 @@ function Projects() {
 
         <p className="project-text">This sprint was meant to develop the app foundations and having functional user accounts, with basic authentication. A significant time was dedicated to create a significatice dialogue between the client and the server.</p>
 
-        <h5>Sprint 2, 7 days - Algorithms & game representation and Sprint 3, Troubleshooting, fixes & public presentation, 7 days</h5>
+        <h5>Sprint 2, Algorithms & game representation, 7 days and Sprint 3, Troubleshooting, fixes & public presentation, 7 days</h5>
 
-        <ul className="development">
+        <ul className="project-list">
           <li>Sqitch versionings</li>
           <li>Problem solving to integrate game mechanics in controllers</li>
           <li>Further middlewares implementation to segment access with JWT</li>
@@ -72,7 +82,7 @@ function Projects() {
           <li>Bug fixes</li>
         </ul>
         
-        <a>Live presentation</a>
+        <a href="https://youtu.be/b014YqS6sno?t=3843" className="live-presentation"><FaLongArrowAltRight className="arrow"/>  <span>Live presentation</span></a>
 
         <p className="project-text"> As of now (01/07/22), the app can be considered a prototype. But I wanted to celebrate our work anyway with this small v1. Of course we are working on a fuller better release !</p>
       </div>

@@ -1,16 +1,23 @@
+.project-role {
+   font-size: 0.7em;
+   margin-bottom: 9px;
+}
+
 .projects  li {
-   font-size: 0.65em;
-   margin: 0 6px 9px 0;      
+   font-size: 0.75em;
+   margin: 0 6px 9px 0;         
+}
+
+span {
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-decoration-color: rgba(0, 159, 227, 0.507);
-   text-decoration-skip-ink: none; ;
+   text-decoration-skip-ink: none;
    text-underline-offset: 0px;
-   /*text-underline-: ;*/
 }
 
 .projects > .title {
-   margin-top: 9px;
+   margin-top: 8px;
 }
 
 .content ul{
@@ -20,6 +27,26 @@
 }
 
 
-.project-text {
+.project-text { 
    font-size: 0.8em;
+}
+
+.stack {
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+   margin-bottom: 9px;
+}
+
+.stack-title {
+   margin-right: 9px;
+}
+
+.project-list {
+   list-style-position: outside;
+   list-style-type: '- ';
+}
+
+.project-github {
+   margin-bottom: 9px;
 }

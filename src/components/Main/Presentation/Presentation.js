@@ -9,7 +9,7 @@ function Presentation() {
         <p className="presentation-text">I'm Pablo Prieto, a junior web developer. I imagine, build apps and interfaces for our web.</p>
         <ul className="presentation-links">
           <li>
-            <a><FaScroll /> <span>curriculum vitae</span></a>
+            <a href="https://github.com/"><FaScroll /> <span>curriculum vitae</span></a>
           </li>
           <li>
             <a href="mailto:prietopablo88@gmail.com"><FaMailBulk /> <span>prietopablo88@gmail.com</span></a>

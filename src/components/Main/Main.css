@@ -8,13 +8,17 @@
  
  .content {
 
-   width: 500px;
+   width: 510px;
    font-size: 0.75em;
  }
 
  h2 {
     font-size: 1.5em;
     margin-bottom: 9px;
+    text-decoration: wavy underline;
+    text-decoration-color: rgba(0, 159, 227, 0.507);
+   text-decoration-skip-ink: none;
+   text-underline-offset: -9px;
  }
 
  h3 {
@@ -28,14 +32,27 @@
  }
 
  h5 {
-   font-size: 0.9em;
-   margin-bottom: 9px;
+   font-size: 0.8em;
+   margin-bottom: 12px;
+   font-style: italic;
  }
 
  .main-section .title {
-  color: rgb(0, 159, 227);
+  color: rgba(0, 159, 227, 0.507);
   text-align: end;
   margin-right: 20px;
   width: 150px;
   text-transform: uppercase;
+}
+
+.live-presentation {
+  margin-bottom: 9px;
+}
+
+.live-presentation span {
+  text-decoration: underline;
+  text-decoration-thickness: 15px;
+  text-decoration-color: rgba(0, 159, 227, 0.507);
+  text-decoration-skip-ink: none; ;
+  text-underline-offset: -18px;
 }
