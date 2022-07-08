@@ -1,5 +1,6 @@
 .presentation {
    min-height: 100vh;
+   max-width: 80vw;
    display: flex;
    flex-direction: column;
    justify-content: center;   
@@ -7,13 +8,11 @@
    font-size: 2.5rem;
 }
 
-.presentation-title {
-   width: 400px;
+.presentation-title { 
    margin: 0.6em 0 0.6em 0;
 }
 
 .presentation-text {
-   width: 400px;
    margin: 0.6em 0 0.6em 0;
 }
 
@@ -36,3 +35,16 @@
    text-underline-offset: -18px;
 }
 
+@media screen and (max-width: 600px) {
+   .presentation {
+     font-size: 2rem;
+     padding: 100px 80px;
+   }
+ }
+
+ @media screen and (max-width: 490px) {
+   .presentation {
+     font-size: 1rem;
+     padding: 50px 50px;
+   }
+ }

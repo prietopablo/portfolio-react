@@ -6,10 +6,10 @@ function Presentation() {
   return (    
       <header className="presentation">
         <h1 className="presentation-title">Hi !</h1>
-        <p className="presentation-text">I'm Pablo Prieto, a junior web developer. I imagine, build apps and interfaces for our web.</p>
+        <p className="presentation-text">I'm Pablo Prieto, a junior web developer. I imagine, build apps and interfaces for the web.</p>
         <ul className="presentation-links">
           <li>
-            <a href="https://github.com/"><FaScroll /> <span>curriculum vitae</span></a>
+            <a href="https://drive.google.com/file/d/1bT_VJ3hLqqfs17XGu9hY9L_wGg-Qb_2D/view?usp=sharing"><FaScroll /> <span>curriculum vitae</span></a>
           </li>
           <li>
             <a href="mailto:prietopablo88@gmail.com"><FaMailBulk /> <span>prietopablo88@gmail.com</span></a>

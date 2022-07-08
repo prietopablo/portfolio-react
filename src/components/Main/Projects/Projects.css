@@ -8,6 +8,10 @@
    margin: 0 6px 9px 0;         
 }
 
+.live-presentation {
+   margin-bottom: 9px;
+}
+
 span {
    text-decoration: underline;
    text-decoration-thickness: 1px;
@@ -45,8 +49,15 @@ span {
 .project-list {
    list-style-position: outside;
    list-style-type: '- ';
+   margin-left: 11px;
+   margin-bottom: 12px;
 }
 
 .project-github {
+   margin-bottom: 9px;
+}
+
+.preview-image {
+   width: 100%;
    margin-bottom: 9px;
 }

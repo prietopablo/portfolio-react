@@ -1,4 +1,5 @@
 import './Projects.css';
+import microscope from './images/microscope.jpg';
 
 import { FaNodeJs, FaReact, FaLongArrowAltRight, FaGithub } from "react-icons/fa"
 import { SiPostgresql, SiRedux } from "react-icons/si"
@@ -12,6 +13,7 @@ function Projects() {
         <h2 className="project-title">microscope web</h2>
         <p className="project-role">Role :  Product owner / Back-end lead developer</p>   
         <p className="project-github"><a className="project-github" href="https://github.com/PrietoPablo/microscope-web"><FaGithub /> Github</a></p>
+        <img className="preview-image" src={ microscope } alt="preview of microscope app"/>
         <p className="project-text">In a team of 4 students from my accelerated training at O’Clock, I developed a web adaptation of Microscope. It’s a game/book meant to create amazing stories in a collaborative way. That’s my first serious project !</p>
         <div className="stack">
           <h5 className="stack-title">Stack  </h5>
@@ -82,9 +84,9 @@ function Projects() {
           <li>Bug fixes</li>
         </ul>
         
-        <a href="https://youtu.be/b014YqS6sno?t=3843" className="live-presentation"><FaLongArrowAltRight className="arrow"/>  <span>Live presentation</span></a>
+        <p className="live-presentation"><a href="https://youtu.be/b014YqS6sno?t=3843" ><FaLongArrowAltRight className="arrow"/>  <span>Live presentation</span></a></p>
 
-        <p className="project-text"> As of now (01/07/22), the app can be considered a prototype. But I wanted to celebrate our work anyway with this small v1. Of course we are working on a fuller better release !</p>
+        <p className="project-text"> As of now (July 1st 2022), the app can be considered a prototype. But I wanted to celebrate our work anyway with this small v1. Of course we are working on a fuller better release !</p>
       </div>
     </div>
   );
