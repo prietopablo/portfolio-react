@@ -41,18 +41,6 @@
   text-transform: uppercase;
 }
 
-.live-presentation {
-  margin-bottom: 9px;
-}
-
-.live-presentation span {
-  text-decoration: underline;
-  text-decoration-thickness: 15px;
-  text-decoration-color: rgba(0, 159, 227, 0.507);
-  text-decoration-skip-ink: none; ;
-  text-underline-offset: -18px;
-}
-
 @media screen and (max-width: 650px) {
   .main-section {
     max-width: 300px;
