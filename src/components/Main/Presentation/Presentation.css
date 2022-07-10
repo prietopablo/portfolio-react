@@ -1,6 +1,6 @@
 .presentation {
    min-height: 100vh;
-   max-width: 80vw;
+   max-width: 90vw;
    display: flex;
    flex-direction: column;
    justify-content: center;   
@@ -40,11 +40,34 @@
      font-size: 2rem;
      padding: 100px 80px;
    }
+
+   .presentation-links span {
+      text-decoration-thickness: 11px;
+      text-underline-offset: -13px;
+   }
  }
 
  @media screen and (max-width: 490px) {
    .presentation {
+     font-size: 1.3rem;
+     padding: 50px 50px;
+   }
+   .presentation-links {
+      font-size: 1.1em;
+   }
+
+   .presentation-links span {
+      text-decoration-thickness: 8px;
+      text-underline-offset: -9px;
+   }
+ }
+
+ @media screen and (max-width: 385px) {
+   .presentation {
      font-size: 1rem;
      padding: 50px 50px;
+   }
+   .presentation-links {
+      font-size: 1.2em;
    }
  }

@@ -14,3 +14,10 @@
    text-decoration-skip-ink: none; ;
    text-underline-offset: -18px;
 }
+
+@media screen and (max-width: 650px) {
+   .skills .content > li {
+      text-decoration-thickness: 12px;
+      text-underline-offset: -13px;
+   }
+}

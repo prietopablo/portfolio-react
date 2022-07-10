@@ -24,6 +24,14 @@ span {
    margin-top: 8px;
 }
 
+.project-title {
+   text-decoration: wavy underline;
+   text-decoration-color: rgba(0, 159, 227, 0.507);
+  text-decoration-skip-ink: none;
+  text-underline-offset: -9px;
+
+}
+
 .content ul{
    display: flex;
    flex-direction: column;
@@ -60,4 +68,11 @@ span {
 .preview-image {
    width: 100%;
    margin-bottom: 9px;
+}
+
+@media screen and (max-width: 650px) {
+   .project-title {
+     text-underline-offset: -5px;
+     
+   }
 }
